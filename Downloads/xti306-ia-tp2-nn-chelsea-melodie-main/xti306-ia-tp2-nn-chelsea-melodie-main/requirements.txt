@@ -1,0 +1,17 @@
+# Manipulation des données (DataFrame, lecture du CSV)
+pandas>=2.2
+# Calcul numérique (np.linspace)
+numpy>=1.26
+# Backend de tracé utilisé par pandas .plot — requis même si on ne l'importe pas
+matplotlib>=3.8
+# Noyau Jupyter, nécessaire pour exécuter le notebook depuis l'IDE
+ipykernel>=6.29
+# PyTorch, pour créer facilement des réseaux de neurones.
+# Version CPU : sous Linux, la version par défaut installe aussi CUDA (plus de 4 Go), inutile pour nos petits modèles.
+# Sous Windows et macOS, cette ligne ne change rien.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch >=2.12.0
+# Listes déroulantes interactives dans le notebook (simulateur de prix du TP2b)
+ipywidgets>=8.1
+# Exécution des notebooks en ligne de commande (jupyter nbconvert --execute)
+nbconvert>=7.16
